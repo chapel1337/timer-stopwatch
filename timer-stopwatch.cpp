@@ -16,6 +16,7 @@ using namespace std::chrono;
 * finally got around to learning the chrono library
 * i'm aware that i could've just used integers for this, but it was good practice (in my opinion)
 * there's not much to say about this, it's just a timer and a stopwatch
+* came back on 12/1/2022 to fix a newline mistake in help/credits
 */
 
 seconds timeSeconds{ 0s };
@@ -101,8 +102,8 @@ void helpCredits()
 	cout << "   and the W and S keys to increase and decrease the time\n\n";
 	
 	cout << "   to pause the stopwatch, press the space or enter key\n";
-	cout << "   when the time is up, press any key to stop the ringer\n\n";
-	cout << "   press the esc to return to the menu\n";
+	cout << "   when the time is up, press any key to stop the ringer\n";
+	cout << "   press the esc to return to the menu\n\n";
 
 	cout << "   written by chapel1337\n\n";
 	cout << "   started on 11/29/2022\n";
